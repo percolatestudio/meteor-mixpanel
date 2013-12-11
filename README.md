@@ -1,4 +1,4 @@
-Light Mixpanel Loader package for Meteor.
+*Light Mixpanel Loader package for Meteor.*
 
 Loading fragment is copied almost verbatim from mixpanel except initialization is done manual.
 
@@ -11,7 +11,7 @@ First, initialize and reactively setup the user such as:
 ```
 Meteor.startup(function() {
   // Initialize Mixpanel Analytics
-  mixpanel.init(Meteor.settings.public.mixpanel.token);
+  mixpanel.init(Meteor.settings.public.mixpanel.token); //YOUR TOKEN
 
   // Link their account
   Deps.autorun(function() {
@@ -26,7 +26,7 @@ Meteor.startup(function() {
         // special mixpanel property names
         "$first_name": user.profile.firstName,
         "$last_name": user.profile.lastName,
-        "$email": user.emails[0].address
+        "$email": user.emails[0].address //IF YOU HAVE IT
     });
   });
 });
