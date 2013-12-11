@@ -1,5 +1,5 @@
 {
-  "name": "mixpanel",
+  "name": "mixpanel-light",
   "description": "Basic Mixpanel loader package",
   "homepage": "https://github.com/percolatestudio/meteor-mixpanel",
   "author": "Zoltan Olah (https://github.com/zol)",
