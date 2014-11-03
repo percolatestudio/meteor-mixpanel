@@ -1,3 +1,5 @@
+* Note: We are no longer actively maintaining this package. We've switched to using segment.io, consider it here: https://atmospherejs.com/percolatestudio/segment.io
+
 *Light Mixpanel Loader package for Meteor.*
 
 Loading fragment is copied almost verbatim from mixpanel except initialization is done manual.
