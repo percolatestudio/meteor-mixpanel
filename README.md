@@ -34,3 +34,7 @@ Meteor.startup(function() {
 });
 ```
 
+## License 
+
+MIT. (c) Percolate Studio, maintained by Zoltan Olah (@zol).
+
